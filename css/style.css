@@ -1,0 +1,29 @@
+
+.navbar .nav-item .nav-link:hover{
+	
+	font-size: 10px;
+	font-weight: 90px;
+	text-transform: uppercase;
+	font-family: monospace;
+}
+
+.navbar .navbar-brand {
+	font-size: 30px;
+	font-weight: 700px;
+	text-transform: uppercase;
+}
+.form .d-flex:hover{
+	background-color: cornflowerblue;
+}
+.navbar .nav-item .nav-link.active {
+	background-color: cornflowerblue;
+
+}
+.navbar .d-flex .btn {
+	background-color: skyblue;
+	color: blueviolet;
+}
+.navbar .container-fluid{
+	background-color: lightskyblue;
+}
+

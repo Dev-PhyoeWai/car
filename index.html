@@ -1,0 +1,157 @@
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<!-- Required meta tags -->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<!-- Bootstrap CSS -->
+			<link href="css/bootstrap.min.css" rel="stylesheet" >
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<title>Bootstrap 2</title>
+			<style>
+				.nav-item{
+					font-family: monospace;
+					text-transform: uppercase;					
+				}
+			.size{
+				height: 500px;
+			}
+		</style>
+	</head>
+	<body style="background-color: skyblue;">
+		<!-- nav -->
+		<nav class="navbar navbar-dark navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><span class="text-dark">Car</span>Showroom</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html"><span class="text-dark">Home</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html"><span class="text-dark">About</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html"><span class="text-dark">Contact Us</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="carforsale.html"><span class="text-dark">CarForSale</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="service.html"><span class="text-dark">Service</span></a>
+						</li>	
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" class="bg-warning">
+						<button class="btn btn-outline-success" type="submit" >Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<!-- nav -->
+
+		<!-- slide -->
+		<!-- div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/mc2.jpg" class="d-block w-100 size" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="img/mc.jpg" class="d-block w-100 size" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="img/mc3.jpg" class="d-block w-100 size" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<!-- slide -->
+
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active"><br><br><br>
+					<img src="img/mc.jpg" class="d-block w-100 size" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h5 style="color: violet;">Brighty Your Life With Luxury</h5>
+						<p style="color: yellow;">The Best Of The Best Of 2023</p>
+					</div>
+				</div>
+				<div class="carousel-item "><br><br><br>
+					<img src="img/li.jpg" class="d-block w-100 size" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h5 style="color: green;">LAMBORGHINI AVANTADOR</h5>
+						<p>Best Super Car</p>
+					</div>
+				</div>
+				<div class="carousel-item"><br><br><br>
+					<img src="img/audi.jpg" class="d-block w-100 size" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h5 style="color: skyblue;">Dont's Tell Others Your Dreams,Show Them.</h5>
+						
+					</div>
+				</div>
+				<div class="carousel-item"><br><br><br>
+					<img src="img/tm5.jpg" class="d-block w-100 size" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h5 style="color: blue;">TESLA MODEL5</h5>
+						<p style="color: blue;">Electric Car</p>
+					</div>
+				</div>
+				<div class="carousel-item"><br><br><br>
+					<img src="img/cc5.jpg" class="d-block w-100 size" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 m-auto mt-4  ">
+					<h5>Let's Find<br> A Car You Love<br> let's start here<br></h5>
+				
+				<button type="button" class="btn  bg-warning">Explore Our Inventory </button><br><br>
+				<button type="button" class="btn bg-info ">New Car Quote</button>
+				
+				
+				<div>
+					<br><br>
+			</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid bg-light">	
+		</div>
+
+		
+
+		<script src="js/bootstrap.bundle.min.js" ></script>
+	</body>
+	</html>

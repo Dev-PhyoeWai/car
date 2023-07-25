@@ -1,0 +1,165 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" >
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Bootstrap 2</title>
+		<style>
+			.nav-item{
+					font-family: monospace;
+					text-transform: uppercase;				
+					
+				}
+			.size{
+				height: 500px;
+			}
+		</style>
+	</head>
+	<body style="background-color: skyblue;">
+		<!-- nav -->
+		<nav class="navbar navbar-dark navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><span class="text-dark">Car</span>Showroom</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html"><span class="text-dark">Home</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html"><span class="text-dark">About</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html"><span class="text-dark">Contact Us</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="carforsale.html"><span class="text-dark">CarForSale</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="service.html"><span class="text-dark">Service</span></a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<!-- nav -->
+
+		<!-- Sign Up -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 m-auto mt-4"><br><br><br>
+					<h3 style="color:goldenrod;">Request for service appointment.</h3>
+					<p>Please provide the detail for your service appointment request below and our service consultants will be in contact with you as soon as possible.</p>
+				
+				</div>
+			</div>
+		</div>
+		<!-- Sign Up -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 m-auto  "><br><br>
+					<h3 style="color: indigo;">Personal Information.</h3>
+					<form class="row g-3">
+						<div class="col-md-4">
+							<label for="validationDefault01" class="form-label">First name</label>
+							<input type="text" class="form-control" id="validationDefault01" value="" required>
+						</div>
+						<div class="col-md-4">
+							<label for="validationDefault02" class="form-label">Last name</label>
+							<input type="text" class="form-control" id="validationDefault02" value="" required>
+						</div>
+						<div class="col-md-4">
+							<label for="validationDefaultUsername" class="form-label">Username</label>
+							<div class="input-group">
+								<span class="input-group-text" id="inputGroupPrepend2">@</span>
+								<input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<label for="validationDefault02" class="form-label">Email</label>
+							<input type="text" class="form-control" id="validationDefault02" value="" required>
+						</div>
+						<div class="col-md-8">
+							<label for="validationDefault03" class="form-label">City</label>
+							<input type="text" class="form-control" id="validationDefault03" required>
+						</div>
+						<div class="col-md-6">
+							<label for="validationDefault04" class="form-label">State</label>
+							<select class="form-select" id="validationDefault04" required>
+								<option selected disabled value="">Choose...</option>
+								<option>...</option>
+							</select>
+						</div>
+						<div class="col-md-6">
+							<label for="validationDefault02" class="form-label">Contact Number</label>
+							<input type="text" class="form-control" id="validationDefault02" value="" required>
+						</div>
+						<div class="col-12">
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+								<label class="form-check-label" for="invalidCheck2">
+									Agree to terms and conditions
+								</label>
+							</div>
+						</div>
+						<div class="col-12">
+							<button class="btn btn-outline-dark" type="submit">Submit </button>
+						</div>
+						
+					</form>
+					
+
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 m-auto "><br><br>
+					<h3 style="color: darkyellow">Service Selection.</h3>
+					<p>Please select the appropriate service required.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 m-auto ">
+					
+					<div class="card" style="width: 18rem; ">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item" style="background-color: whitesmoke;">Service maintanance</li>
+							<li class="list-group-item" style="background-color: mediumvioletred;">General Repair</li>
+							<li class="list-group-item" style="background-color: grey;">Sagety related checks</li>
+							<li class="list-group-item" style="background-color: springgreen;">Professional car care</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 m-auto mt-4 ">
+					
+					<div class="mb-3">
+						<label for="exampleFormControlTextarea1" class="form-label"><h6 style="color: green;">Please provide more details on the required service.</h6></label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div><br><br>
+				</div>
+			</div>
+		</div>
+		
+
+	<script src="js/bootstrap.bundle.min.js" ></script>
+	</body>
+	</html>
